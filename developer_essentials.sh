@@ -27,8 +27,8 @@ sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic
 sudo apt update
 sudo apt -y install r-base
 cd ~/Downloads || exit
-wget https://download2.rstudio.org/server/trusty/amd64/rstudio-server-1.2.5019-amd64.deb
-sudo gdebi rstudio-server-1.2.5019-amd64.deb
+wget wget https://download1.rstudio.org/desktop/bionic/amd64/rstudio-1.2.5019-amd64.deb
+sudo gdebi rstudio-1.2.5019-amd64.deb
 cd ~ || exit
 
 # Ruby
