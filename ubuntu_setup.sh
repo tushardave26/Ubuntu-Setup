@@ -17,6 +17,9 @@ sudo tlp start
 # install dependency of DropBox
 sudo apt -y install libatomic1
 
+# install htop and iotop
+sudo apt -y install htop iotop
+
 # system cleanup
 sudo apt autoremove
 
