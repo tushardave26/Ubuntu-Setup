@@ -14,6 +14,9 @@ sudo apt -y install gnome-tweak-tool
 sudo apt -y install tlp tlp-rdw
 sudo tlp start
 
+# install dependency of DropBox
+sudo apt -y install libatomic1
+
 # system cleanup
 sudo apt autoremove
 
