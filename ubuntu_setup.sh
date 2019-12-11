@@ -7,7 +7,7 @@ sudo apt upgrade
 # install media codecs
 sudo apt -y install ubuntu-restricted-extras
 
-# install tweal tool
+# install tweak tool
 sudo apt -y install gnome-tweak-tool
 
 # install tlp and tlp-dw for prolong your battery and prevent overheating
