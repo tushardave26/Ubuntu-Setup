@@ -8,7 +8,7 @@ sudo apt -y install build-essential
 sudo apt -y install libxml2 libxml2-dev libgeoip-dev libxslt1-dev ruby-dev libbz2-dev libncurses5-dev \
                     libncursesw5-dev liblzma-dev manpages-dev man-db manpages-posix-dev libx11-dev zlib1g-dev \
                     libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libcurl4-openssl-dev \
-                    software-properties-common libffi-dev wget gdebi-core curl
+                    software-properties-common libffi-dev wget gdebi-core curl git
 
 # C programming language essentials
 sudo apt -y install libgtk-3-doc gstreamer1.0-doc libwebkit2gtk-4.0-doc libgda-5.0-doc
