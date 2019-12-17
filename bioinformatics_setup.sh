@@ -45,7 +45,7 @@ echo 'export PATH=$PATH:/usr/bin/htslib-1.10' >> ~/.bashrc
 echo "" >> ~/.bashrc
 
 echo "# Path for BEDTOOLS v2.29" >> ~/.bashrc
-echo 'export PATH=$PATH:/usr/bin/bedtools2' >> ~/.bashrc
+echo 'export PATH=$PATH:/usr/bin/bedtools2/bin' >> ~/.bashrc
 echo "" >> ~/.bashrc
 
 # system cleanup
