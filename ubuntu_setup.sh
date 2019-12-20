@@ -20,6 +20,9 @@ sudo apt -y install libatomic1
 # install htop and iotop
 sudo apt -y install htop iotop
 
+# install ncdu
+sudo apt -y install ncdu
+
 # system cleanup
 sudo apt autoremove
 
