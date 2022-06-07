@@ -37,15 +37,15 @@ cd ..
 sudo rm bedtools-2.30.0.tar.gz
 
 # add newly installed packages to the path
-#echo "# Path for SAMTOOLS, HTSLIB and BCFTOOLS v1.15.1" >> ~/.bashrc
-#echo 'export PATH=$PATH:/usr/bin/bcftools-1.15.1' >> ~/.bashrc
-#echo 'export PATH=$PATH:/usr/bin/samools-1.15.1' >> ~/.bashrc
-#echo 'export PATH=$PATH:/usr/bin/htslib-1.15.1' >> ~/.bashrc
-#echo "" >> ~/.bashrc
+echo "# Path for SAMTOOLS, HTSLIB and BCFTOOLS v1.15.1" >> ~/.bashrc
+echo "export PATH=$PATH:/usr/local/bin/bcftools-1.15.1" >> ~/.bashrc
+echo "export PATH=$PATH:/usr/local/bin/samtools-1.15.1" >> ~/.bashrc
+echo "export PATH=$PATH:/usr/local/bin/htslib-1.15.1" >> ~/.bashrc
+echo "" >> ~/.bashrc
 
-#echo "# Path for BEDTOOLS v2.30.0" >> ~/.bashrc
-#echo 'export PATH=$PATH:/usr/bin/bedtools2/bin' >> ~/.bashrc
-#echo "" >> ~/.bashrc
+echo "# Path for BEDTOOLS v2.30.0" >> ~/.bashrc
+echo "export PATH=$PATH:/usr/bin/bedtools2/bin" >> ~/.bashrc
+echo "" >> ~/.bashrc
 
 # system cleanup
 sudo apt autoremove
