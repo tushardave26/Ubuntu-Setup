@@ -4,7 +4,7 @@
 sudo apt -y full-upgrade
 
 # install HTSLIB v1.15.1
-cd /usr/bin || exit
+cd /usr/local/bin || exit
 sudo wget https://github.com/samtools/htslib/releases/download/1.15.1/htslib-1.15.1.tar.bz2
 sudo tar -vxjf htslib-1.15.1.tar.bz2
 cd htslib-1.15.1 || exit
@@ -29,7 +29,6 @@ cd ..
 sudo rm bcftools-1.15.1.tar.bz2
 
 # install bedtools v2.30.0
-cd /usr/bin || exit
 sudo wget https://github.com/arq5x/bedtools2/releases/download/v2.30.0/bedtools-2.30.0.tar.gz
 sudo tar -zxvf bedtools-2.30.0.tar.gz
 cd bedtools2 || exit
