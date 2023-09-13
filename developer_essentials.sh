@@ -22,12 +22,12 @@ sudo apt -y install python-pip python3-pip
 
 # R & RStudio
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
-sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran35/'
+sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran40/'
 sudo apt update
 sudo apt -y install r-base
 cd ~/Downloads || exit
-wget wget https://download1.rstudio.org/desktop/bionic/amd64/rstudio-1.2.5019-amd64.deb
-sudo gdebi rstudio-1.2.5019-amd64.deb
+wget wget https://download1.rstudio.org/electron/focal/amd64/rstudio-2023.06.2-561-amd64.deb
+sudo gdebi rstudio-2023.06.2-561-amd64.deb
 cd ~ || exit
 
 # Ruby
