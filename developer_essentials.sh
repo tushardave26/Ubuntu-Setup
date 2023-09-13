@@ -14,8 +14,7 @@ sudo apt -y install libxml2 libxml2-dev libgeoip-dev libxslt1-dev ruby-dev libbz
 sudo apt -y install libgtk-3-doc gstreamer1.0-doc libwebkit2gtk-4.0-doc libgda-5.0-doc
 
 # C++ programming language essentials
-sudo apt -y install g++ libgtkmm-3.0-dev libgstreamermm-1.0-dev libgdamm5.0-dev libgtkmm-3.0-doc libcluttermm-1.0-doc \
-                    libgdamm5.0-doc
+sudo apt -y install g++ libgtkmm-3.0-dev libgstreamermm-1.0-dev libgdamm5.0-dev libgtkmm-3.0-doc libgdamm5.0-doc
 
 # Python2 programming laguage essentials
 # Following commnd line will also install Python 2
